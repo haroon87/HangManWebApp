@@ -1,0 +1,14 @@
+<HTML>
+<head>
+<title>Simple Page</title>
+</head>
+<body>
+<h1>Simple Page HtML</h1>
+<p>
+Hellow
+</p>
+<script>
+alert("Hellow World");
+</script>
+</body>
+</HTML>
