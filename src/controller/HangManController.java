@@ -112,6 +112,8 @@ public class HangManController extends HttpServlet {
 			if (!OriginalWord.contains("-")) {
 				session.setAttribute("GameWin", true);
 			}
+			
+			//Calling the view and passing information
 			RequestDispatcher dispatcher = request
 					.getRequestDispatcher("View.jsp");
 			if (dispatcher != null) {
