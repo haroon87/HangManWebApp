@@ -25,6 +25,7 @@ import model.WordModel;
  *  THIS SERVLET CLASS IS MAIN ENTRY POINT TO THE APPLICATION
  *  This is the servlet used as the controller for the MVC pattern. Initializes the model objects and
  *  takes care of intereaction between the JSP view page and Model
+ *  Need to decouple the logic from the controller to another class. Will just make the servlet as a listener
  * */
 
 public class HangManController extends HttpServlet {
